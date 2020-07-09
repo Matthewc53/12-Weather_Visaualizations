@@ -1,12 +1,10 @@
-
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <title>HW12Project!!</title>
+  <title>MAS Dashbaord</title>
   <title> NAVBAR </title>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="hw12style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -17,16 +15,15 @@
 <body>
 
 
-
   <ul class='nav'>
     <div class = 'box-3'>
     <li><a href ='index.html'>Hw12</a></li></div>
     <div class="dropdown">
     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Home
+    cloudinessvlat
     </button>
     <div class="dropdown-menu" aria-labelledby="menu">
-      <a class="dropdown-item" href="#">Home</a>
+      <a class="dropdown-item" href="Hw12html.html">Home</a>
       <a class="dropdown-item" href="visualizations.html">Visualizations</a>
       <a class="dropdown-item" href="hw12 visualization page.html">Comparisons</a>
       <a class="dropdown-item" href="data.html">Data</a>
@@ -35,29 +32,14 @@
     </div>
   </ul>
 
-
-
-
-<h1><div class='box'>Hw 12!!</h1></div>
-  <p>This is a homework project which will display plots that I formed from information from a weather data API. The code generated 500 points(cities) and correlated weather data such as temperature versus latitude, windspeed versus latitude, humidity versus latitude, and cloud cover related to latitude.</p>
-<p>Click on an image below to get to the visualization page.</p>
-<div class='container' position:'center'>
-<div class='col-md-1'></div>
-<div class='col-md-12'>
-
-  <div class='panel'>
-<a href = 'visualizations.html'>
-<img src='Humidity V Latitude.png'height='250px' width='250px'></a>
-<a href = 'visualizations.html'>
-<img src='Latitude V Cloudiness.png'height='250px' width='250px'></a>
-<a href = 'visualizations.html'>
-<img src='Latitude V Temperature.png'height='250px' width='250px'></a>
-<a href = 'visualizations.html'>
-<img src='Windspeed V Latitude.png'height='250px' width='250px'></a>
-  </div>
-</div>
-
-
-
-</body>
-</html>
+  <div class='container-fluid'>
+    <h1><figure class='box'>Cloud Cover V Latitude</h1></figure>
+  <div class='row'><div class='col-md-12'>
+    <div class='center'>
+    <img src='Document Processing Rates over Time.png' height='600px' width='700px'class='center'>
+        <br><p>This is the amount of cloud cover of the city compared to the latitude of the city at the time of plotting. Higher latitudes correlate to more cloud cover.</div></p>
+        <br>
+      </figure>
+      </div>
+      </body>
+      </html>
